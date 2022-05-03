@@ -1,0 +1,30 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.head{
+  color: white;
+  background-color: #140425;
+  width: 25%;
+  height: 100%;
+}
+
+.profile{
+  height: 75px;
+  width: 75px;
+}
+
+.link{
+  color: #8A808C;
+
+}
+
+.bdt{
+  width: 30%;
+  border-top: 1px solid white;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
