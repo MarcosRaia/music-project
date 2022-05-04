@@ -1,9 +1,15 @@
 body{
+  background-color: #17002a;
   margin: 0px;
   padding: 0px;
 }
 
 .head{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
   color: white;
   background-color: #140425;
   width: 25%;
@@ -27,4 +33,49 @@ body{
 
 .material-icons {
   vertical-align: middle;
+}
+
+.searchbar{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+#searchcolor::placeholder{
+  color: #514567;
+}
+
+.grid{
+    display: flex;
+    flex: 1;
+    max-height: 320px;
+    overflow-x: scroll;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px;
+    max-width: 210px;
+    max-height: 290px;
+    padding: 8px;
+    margin: 0 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.item-image{
+  max-width: 100%;
+  
+}
+
+img{
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
 }
