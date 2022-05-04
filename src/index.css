@@ -12,7 +12,7 @@ body{
   overflow-x: hidden;
   color: white;
   background-color: #140425;
-  width: 25%;
+  width: 20%;
   height: 100%;
 }
 
@@ -47,10 +47,11 @@ body{
 }
 
 .grid{
-    display: flex;
-    flex: 1;
-    max-height: 320px;
-    overflow-x: scroll;
+  display: flex;
+  position: absolute;
+  right: 50px;
+  width: 70%;
+  overflow-x: scroll;
 
 }
 
@@ -74,8 +75,9 @@ body{
   
 }
 
-img{
-  width: 200px;
-  height: 150px;
+.imgC{
+  width: 400px;
+  height: 200px;
   border-radius: 20px;
+  padding-right: 120px;
 }

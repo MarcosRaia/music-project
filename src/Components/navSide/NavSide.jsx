@@ -5,8 +5,8 @@ function NavSide() {
     return <>
         <aside className="head">
             <Row style={{paddingTop: '20%'}} >
-                <Col xs={4} style= {{paddingLeft:'45px'}}> <img  className="profile" src={profile} /> </Col>
-                <Col xs={6} > <h4>Marcos Raia</h4>
+                <Col xs={4} style= {{paddingLeft:'25px'}}> <img  className="profile" src={profile} /> </Col>
+                <Col xs={8} > <h5 style= {{paddingLeft:'15px'}}>Marcos Raia</h5>
                     <Nav.Link className="link">Edit Profile <i class="material-icons">settings</i></Nav.Link>
                 </Col>
             </Row>

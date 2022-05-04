@@ -13,29 +13,13 @@ function Content() {
             </div>
         </div>
         <h2 className='d-flex justify-content-center'>Featured Playlists</h2>
-        <Container className="grid">
-            <div className="item">
-                <div className="item-image">
-                <img src={playlist1}/>
-                </div>
-            </div>
-            <div className="item">
-                <div className="item-image">
-                <img src={playlist2}/>
-                </div>
-            </div>
-            <div className="item">
-                <div className="item-image">
-                <img src={playlist3}/>
-                </div>
-            </div>
-            <div className="item">
-                <div className="item-image">
-                <img src={playlist4}/>
-                </div>
-            </div>
+        <Container className="grid align-left">
             
-
+            <Col xs= {4} > <img  className="imgC profile" src={playlist1} /> </Col>
+            <Col xs= {4} > <img  className="imgC profile" src={playlist1} /> </Col>
+            <Col xs= {4} > <img  className="imgC profile" src={playlist1} /> </Col>
+            <Col xs= {4} > <img  className="imgC profile" src={playlist1} /> </Col>
+            
         </Container>
     </>
 
